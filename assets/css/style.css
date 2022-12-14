@@ -1,0 +1,30 @@
+body, a {
+  background-color: #524968;
+  color: #fff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin: 1rem 0;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #524968;
+}
+
+.input-box input{
+  margin: 2rem 0;
+  width: 300px !important;
+  height: 50px !important;
+}
+

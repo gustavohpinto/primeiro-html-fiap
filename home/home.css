@@ -1,0 +1,77 @@
+.foto-usuario{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1299px) {
+    a{
+        color: #524968;
+    }
+    
+    .card{
+        background-color: #fff;
+        color: #524968;
+        border-color: #524968;
+        border-radius: 10px;
+    }
+    
+    .card-identification{
+        margin: 1rem;
+    }
+    
+    nav{
+        margin-top: 2rem !important;
+    }
+    
+    .bi:before {
+        font-size: 50px;
+    }
+    
+    .bi-person:before{
+     font-size: 100px !important;
+    }
+
+    .navbar, .container-web{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 1300px) {
+    .mobile{
+        display: none;
+    }
+    .navbar{
+        background-color: #524968 !important;
+        padding: 1rem;
+    }
+    .navbar h1{
+        font-size: 32px !important;
+    }
+    .card-identification{
+        margin: 2rem 0.5rem 2rem 0.5rem;
+    }
+    #sidebarMenu{
+        background-color: #524968 !important;
+    }
+        #sidebarMenu a, #sidebarMenu span{
+            background-color: #524968 !important;
+            color: #fff;
+        }
+
+        #sidebarMenu a{
+            font-size: 20px;
+        }
+
+        #sidebarMenu span{
+            font-size: 25px;
+        }
+
+    .bi-person:before{
+     font-size: 100px !important;
+    }    
+    table{
+        margin: 1.5rem 0;
+    }
+}

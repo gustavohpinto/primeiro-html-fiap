@@ -1,0 +1,11 @@
+img{
+    width: 150px !important;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 5rem 0rem 5rem;
+}
